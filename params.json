@@ -1,0 +1,6 @@
+{
+  "name": "Dotfiles",
+  "tagline": "My dotfiles",
+  "body": "# Magno's dotfiles\r\n\r\n![Screenshot preview](https://raw.githubusercontent.com/magnobiet/dotfiles/master/preview.png)\r\n\r\n## Requirements\r\n\r\n```bash\r\napt-get install -y git xclip # as super user\r\nssh-keygen -t rsa -b 4096\r\nxclip -sel clip < ~/.ssh/id_rsa.pub\r\n```\r\n\r\nInstall the public key on your BitBucket <http://bit.ly/1VMnKa3> or GitHub <https://git.io/vw0D8> account.\r\n\r\n## Installation\r\n\r\n**Warning**: If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!\r\n\r\n### Using Git\r\n\r\n```bash\r\ngit clone git@github.com:magnobiet/dotfiles.git\r\ncd dotfiles\r\n./install # as super user\r\n```\r\n\r\n![Screenshot](https://raw.githubusercontent.com/magnobiet/dotfiles/master/screenshot.png)\r\n\r\n## License\r\n\r\n[MIT](https://magno.mit-license.org/)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Dotfiles by magnobiet</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Dotfiles</h1>
+        <p>My dotfiles</p>
+
+        <p class="view"><a href="https://github.com/magnobiet/dotfiles">View the Project on GitHub <small>magnobiet/dotfiles</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/magnobiet/dotfiles/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/magnobiet/dotfiles/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/magnobiet/dotfiles">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="magnos-dotfiles" class="anchor" href="#magnos-dotfiles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Magno's dotfiles</h1>
+
+<p><img src="https://raw.githubusercontent.com/magnobiet/dotfiles/master/preview.png" alt="Screenshot preview"></p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
+
+<div class="highlight highlight-source-shell"><pre>apt-get install -y git xclip <span class="pl-c"># as super user</span>
+ssh-keygen -t rsa -b 4096
+xclip -sel clip <span class="pl-k">&lt;</span> <span class="pl-k">~</span>/.ssh/id_rsa.pub</pre></div>
+
+<p>Install the public key on your BitBucket <a href="http://bit.ly/1VMnKa3">http://bit.ly/1VMnKa3</a> or GitHub <a href="https://git.io/vw0D8">https://git.io/vw0D8</a> account.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<p><strong>Warning</strong>: If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!</p>
+
+<h3>
+<a id="using-git" class="anchor" href="#using-git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using Git</h3>
+
+<div class="highlight highlight-source-shell"><pre>git clone git@github.com:magnobiet/dotfiles.git
+<span class="pl-c1">cd</span> dotfiles
+./install <span class="pl-c"># as super user</span></pre></div>
+
+<p><img src="https://raw.githubusercontent.com/magnobiet/dotfiles/master/screenshot.png" alt="Screenshot"></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p><a href="https://magno.mit-license.org/">MIT</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/magnobiet">magnobiet</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
